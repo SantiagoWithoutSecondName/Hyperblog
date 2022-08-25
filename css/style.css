@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 62.5%
+}
 body {
     color: black;
     text-align: center;
@@ -12,4 +15,15 @@ body {
     width: 70vw;
     height: 30vh;
     border: solid black;
+}
+.cabecera {
+    width: 70vw;
+    height: fit-content;
+    font-size: 2rem;
+    font-weight: bold;
+    border: solid black;
+    box-shadow: 60px 16px 5px rgba(112, 44, 127, 0.376);
+    background-color: aqua;
+    color: white;
+    margin-bottom: 20px;
 }
