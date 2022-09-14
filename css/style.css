@@ -4,17 +4,22 @@
     padding: 0;
 }
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    background-color: gray;
 }
-body {
+.all {
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
 }
+
 .container {
     width: 70vw;
     height: 30vh;
     border: solid black;
     text-align: center;
+    background-color: beige;
 }
 .cabecera {
     display: flex;
