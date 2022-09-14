@@ -8,22 +8,24 @@ html {
 }
 body {
     color: green;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container {
     width: 70vw;
     height: 30vh;
     border: solid black;
+    text-align: center;
 }
 .cabecera {
+    display: flex;
     width: 70vw;
-    height: fit-content;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: start;
     font-size: 2rem;
     font-weight: bold;
     border: solid black;
     box-shadow: 60px 16px 40px rgba(112, 44, 127, 0.376);
     background-color: aqua;
     color: white;
-    margin-bottom: 20px;
 }
