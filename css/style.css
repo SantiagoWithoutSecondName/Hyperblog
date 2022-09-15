@@ -17,9 +17,9 @@ html {
 .container {
     width: 70vw;
     height: 30vh;
-    border: solid black;
     text-align: center;
     background-color: beige;
+    border: solid black 2px;
 }
 .cabecera {
     display: flex;
@@ -29,8 +29,19 @@ html {
     justify-content: start;
     font-size: 2rem;
     font-weight: bold;
-    border: solid black;
+    border: solid black 2px;
     box-shadow: 60px 16px 40px rgba(112, 44, 127, 0.376);
     background-color: aqua;
     color: white;
+}
+.footer {
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgb(89, 133, 130);
+    width: 70vw;
+    height: fit-content;
+    border: solid black 2px;
+    padding: 0.5rem;
+    text-align: center;
 }
