@@ -16,7 +16,7 @@ html {
 
 .container {
     width: 70vw;
-    height: 30vh;
+    height: fit-content;
     text-align: center;
     background-color: beige;
     border: solid black 2px;
@@ -44,4 +44,8 @@ html {
     border: solid black 2px;
     padding: 0.5rem;
     text-align: center;
+}
+
+.container img {
+    padding: 20px;
 }
