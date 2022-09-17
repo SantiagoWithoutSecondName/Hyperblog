@@ -9,8 +9,11 @@ Me gustaría viajar por el mundo en un futuro, al menos intentar comprender cosa
 Experimento 1
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 experimento2
 
+=======
+>>>>>>> 20cc529 (exp 1)
 =======
 >>>>>>> 20cc529 (exp 1)
 
